@@ -1,0 +1,13 @@
+[project]
+name = "interview-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
